@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Edwin Landing Page</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.4.2/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/cool.css" rel="stylesheet" />
+        <link href="css/tailwind2.0.4.min.css" rel="stylesheet" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+        <script lang="JavaScript">
+            
+            jQuery.easing.def = 'easeOutBack';
+
+            $(document).ready(function() {
+                
+                var $item = $('div.item'), //Cache your DOM selector
+                    visible = 2, //Set the number of items that will be visible
+                    index = 0, //Starting index
+                    endIndex = ( $item.length / visible ) + 3; //End index
+                
+                $('div#arrowL').click(function(){
+                    if(index < endIndex ){
+                    index++;
+                    $item.animate({'left':'-=530px'},420);
+                    }
+                });
+                
+                $('div#arrowR').click(function(){
+                    if(index > 0){
+                    index--;            
+                    $item.animate({'left':'+=530px'},420);
+                    }
+                });
+                
+            });
+        
+        </script>
+        
+
+        
+
+        
+
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="assets\img\logo-etechmax11.png" width="250px"></a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="edwin-portfolio-articles.html">Portfolio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="about.html">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center custom-bg-image">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+              
+                <div class="spacer" style="height: 140px;"></div>
+                    <div class="container w-75">   
+                        <!-- Masthead Heading-->
+                        <h1 class="masthead-heading mb-2"><span class="awesome-gradient">Awesome</span> Figma Designs</h1> 
+                        <!-- Masthead Subheading-->
+                        <p class="h2 fresh-font mb-3 px-15">We help you visualize your ideas <span style="color: #E3AE1C;">early</span></p>
+                        <div class="spacer" style="height: 30px;"></div>
+
+                        <div class="container w-75 mb-4" style="color: #CACCF9;">
+                            <div class="row gx-5">
+                                <div class="col-sm">
+                                   <p class="mb-0 h6">We are fast</p>
+                                   <p class="mt-1">See your UI/UX early</p>
+                                </div>
+                                <div class="col-sm">
+                                    <p class="mb-0 h6">Fast Revisions</p>
+                                    <p class="mt-1">Quick action on your feedback</p>
+                                </div>
+                                <div class="col-sm">
+                                    <p class="mb-0 h6">Best practices only</p>
+                                    <p class="mt-1">User Friendly Focus</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="spacer" style="height: 20px;"></div>
+                        <div class="container">
+                            <a href="#contact" class="btn btn-outline-light btn-lg active" role="button" aria-pressed="true">
+                                <p class="h3 mb-0 mx-2">Let's talk</p></a>
+                            <p class="fresh-font font-weight-light mt-1 px-15">Your Trusted Figma Partner</p>
+
+                        </div>
+                    </div>
+                    <div class="spacer" style="height: 85px;">
+                        
+                    </div>
+
+                    <div id="container1">   
+                        <div id="arrowL">
+                            <i style='font-size:60px;'>&#11166;</i>
+                        </div>
+                        <div id="arrowR">
+                            <i style='font-size:60px;'>&#11164; </i>
+                        </div>
+                        <div id="list-container">
+                        
+                            <div class='list'>
+                                <div class='item' style="background-color: #fff614;">
+                                    <img alt="" class="img-responsive" src="assets\img\portfolio\landingpage-broaden.jpg" width="609px">
+                                </div>
+                            
+                                <div class='item' style="background-color: #eb8807;">
+                                    <img alt="" class="img-responsive" src="assets\img\portfolio\landingpage-etechimax.png" width="609px">
+                                </div>
+                                <div class='item' style="background-color: #ffffff;">
+                                    <img alt="" class="img-responsive" src="assets\img\portfolio\landingpage-executivecoaching.jpg" width="609px">
+                                </div> 
+                                <div class='item' style="background-color: #fff614;">
+                                    <img alt="" class="img-responsive" src="assets\img\portfolio\landingpage-broaden.jpg" width="609px">
+                                </div>
+                            
+                                <div class='item' style="background-color: #eb8807;">
+                                    <img alt="" class="img-responsive" src="assets\img\portfolio\landingpage-etechimax.png" width="609px">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+
+                    
+
+            </div>
+        </header>
+
+        <!-- Our Approach Section-->
+        <section class="page-section portfolio" id="approach">
+            <div class="container mx-5 px-5">
+                <!-- Portfolio Section Heading-->
+                <h1 class="page-section-heading text-secondary text-center mb-5">What we solve - 
+                    <span style="color:#ff5c34;">how you benefit</span></h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line custom-bg-color-1"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center mt-5 custom-color-1 mx-auto" style="max-width: 85%;">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-5 col-lg-5 p-5 pl-5 border-right border-bottom text-center">
+                        
+                        <div class="divider-custom-icon text-center">
+                            <i class="fas fa-frown" style="font-size: 30px; color:#ff5c34;"></i></div>    
+                        <div class="title1 text-center py-3"><h6>Overwhelming Design Complexity</h6></div>
+                        <p>We deliver layouts that speak instantly to your audience. Highly Simplified - geared to your goals. Complexity can be opportunity</p>
+                        
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-5 col-lg-5 p-5 pl-5 border-bottom border-start text-center">
+                        
+                        <div class="divider-custom-icon text-center">
+                            <i class="fas fa-hourglass-end" style="font-size: 30px; color:#ff5c34;"></i></div>
+                            <div class="title1 text-center py-3"><h6>Design Project Delays & Slow iteration</h6></div>
+                            <p>Strictly no delay on your feedback.We act fast - consistently with your goals.</p>
+                            
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-5 col-lg-5 mb-3 p-5 text-center">
+                        
+                        <div class="divider-custom-icon text-center">
+                            <i class="fas fa-warning" style="font-size: 30px; color:#ff5c34;"></i></div>
+                            <div class="title1 text-center py-3"><h6>Lack of consistency in branding</h6></div>
+                            <p>Our design systems ensure visual harmony across your entire project</p>
+                        
+                    </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-5 col-lg-5 mb-3 p-5 text-center border-start">
+                        
+                             <div class="divider-custom-icon text-center">
+                                <i class="fas fa-users" style="font-size: 30px; color:#ff5c34;"></i></div>
+                            <div class="title1 text-center py-3"><h6>Communication & Stakeholder misalignment</h6></div>
+                            <p> Each stakeholder gets 24-7 online access to the ongoing project design - with regular update reports on email.</p>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+         <!-- About Section-->
+         <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">Our Figma Design 
+                    <span style="color: #f3e200;">Process</span></h2>
+                    
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light" style="margin-top: 35px !important; margin-bottom: 35px !important;">
+                    <div class="divider-custom-line"></div>
+                    <h3 class="text-center mt-1" style="color: #fc6f4c; display:inline-block !important;">your pain to 
+                        <span style="color: #f3e200;">your satisfaction</span></h3></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                
+                
+                
+              
+
+                
+
+                
+                
+                
+                
+                <!-- About Section Content-->
+
+
+
+
+
+
+                <div class="row">
+                      <div class="col-lg-4 ms-auto" style="font-size: 20px;">
+                    <div class="tatsu-column-pad">
+                        <div class="py-3" >
+                            <div class="pr-2 float-left">
+                                <i class="fas fa-check-circle " style="color: #fcfc00;"></i>
+                            </div>
+                            <div class="tatsu-icon_card-title-caption">
+
+                                <div class="tatsu-icon_card-caption typo-h5">
+                                    <p><span style="color: #fcfc00;"><span
+                                                style="color: #ffed00;">Round1</span>:</span>
+                                        <span style="color: #ffffff;">Discovery call to
+                                            understand your pain points</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tatsu-FjNKebl_8 tatsu-module tatsu-divider-wrap  ">
+                            <hr class="tatsu-module tatsu-divider" />
+                        </div>
+                        <div class="py-3"
+                            >
+                            <div class="pr-2 float-left ">
+                                <i class="fas fa-check-circle" style="color: #fcfc00;"></i>
+                            </div>
+                            <div class="tatsu-icon_card-title-caption">
+
+                                <div class="tatsu-icon_card-caption typo-h5">
+                                    <p><span style="color: #fcfc00;">Round 2:</span> <span
+                                            style="color: #ffffff;">We do the problem
+                                            breakdown, followed by simple visuals of your
+                                            solution</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tatsu-u4YUcVRuF tatsu-module tatsu-divider-wrap  ">
+                            <hr class="tatsu-module tatsu-divider" />
+                        </div>
+                        <div class="py-3"
+                            >
+                            <div class="pr-2 float-left ">
+                                <i class="fas fa-check-circle" style="color: #fcfc00;"></i>
+                            </div>
+                            <div class="tatsu-icon_card-title-caption">
+
+                                <div class="tatsu-icon_card-caption typo-h5">
+                                    <p><span style="color: #ffed00;">Round 3</span>: <span
+                                            style="color: #ffffff;">Full Figma Design
+                                            Development</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tatsu-O6sZmEnPn tatsu-module tatsu-divider-wrap  ">
+                            <hr class="tatsu-module tatsu-divider" />
+                        </div>
+                        <div class="py-3">
+                            <div class="pr-2 float-left ">
+                                <i class="fas fa-check-circle" style="color: #fcfc00;"></i>
+                            </div>
+                            <div class="tatsu-icon_card-title-caption">
+
+                                <div class="tatsu-icon_card-caption typo-h5">
+                                    <p><span style="color: #fcfc00;">Round 4</span>: <span
+                                            style="color: #ffffff;">The fun part! Iterate & refine - based
+                                            on your feedbacks</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tatsu-xVLE1-d9q tatsu-module tatsu-divider-wrap  ">
+                            <hr class="tatsu-module tatsu-divider" />
+                        </div>
+                        <div class="py-3"
+                            >
+                            <div class="pr-2 float-left ">
+                                <i class="fas fa-check-circle" style="color: #fcfc00;"></i>
+                            </div>
+                            <div class="tatsu-icon_card-title-caption">
+
+                                <div class="tatsu-icon_card-caption typo-h5">
+                                    <p><span style="color: #fcfc00;">Delivery:</span> <span
+                                            style="color: #ffffff;">Finalized Designs Ready
+                                            for development</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-lg-4 me-auto">
+                        <img src="assets/img/sad-to-happy.jpg" width="350px"  class="mx-auto mt-5">
+                    </div>
+                </div>
+                <!-- About Section Button-->
+                <div class="text-center mt-5">
+
+                    <a href="#contact" class="btn btn-outline-light btn-lg active" role="button" aria-pressed="true">
+                        <p class="h3 mb-0 mx-2">Let's talk</p></a>
+                        <p class="fresh-font font-weight-light mt-1 px-15">Your Trusted Solutions Partner</p>
+
+                    
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h1 class="text-center text-secondary mb-0">Frequently Asked Questions</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line custom-bg-color-1"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star custom-color-1"></i></div>
+                    <div class="divider-custom-line custom-bg-color-1" ></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center gx-5 mt-5 custom-color-1">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-4 col-lg-4 mb-3 pl-5">
+                        <div class="faq-item">
+                            
+                        <div class="title1"><h6>Can you handle tight deadlines?</h6></div>
+                        <p>We can accommodate tight deadlines, depending on the project scope. Let us know your timeline, and we’ll do our best to deliver on time.</p>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-4 col-lg-4 mb-3 pl-5">
+                        <div class="faq-item">
+
+                            <div class="title1"><h6>What will be the final output?</h6></div>
+                            <p>We will provide fully Layered FIGMA files as a final output ready for the developers to code.</p>
+                            </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-4 col-lg-4 mb-3 pl-5">
+                        <div class="faq-item">
+                            
+                            <div class="title1"><h6>What's the work process? </h6></div>
+                            <p> 1. We’ll design the first page and send a PNG for feedback. 2. Then revise it based on your input until you’re satisfied. 3. Once approved, we’ll deliver the final files.</p>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-4 col-lg-4 mb-3 pl-5">
+                        <div class="faq-item">
+        
+                            <div class="title1"><h6>Is your work mobile responsive?</h6></div>
+                            <p>It is fully responsive for mobile, tablets & normal screens</p>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-4 col-lg-4 mb-3 pl-5">
+                        <div class="faq-item">
+        
+                            <div class="title1"><h6>What if I need help after the project is finished?</h6></div>
+                            <p>We offer free support after project completion, so feel free to reach out anytime for assistance. For major changes to your order, additional charges may apply.</p>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-4 col-lg-4 mb-3 pl-5">
+                        <div class="faq-item">
+        
+                            <div class="title1"><h6>What’s the turnaround time?</h6></div>
+                            <p>   The timeframe depends on the scope. Typically, we deliver the first draft of the landing page design within 1 to 5 days</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section-->
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ms-auto"><p class="lead">EtechMax is a solutions provider - bringing the best of people & the best of technology together to deliver impactful results.</p>
+                    <p class = "lead">
+                        Given a problem or requirement. We ask ourselves: How do we best deliver the needed results? It is not only about aesthetics but also practicality, usability, suitability, reach & targets.</p>
+                    </div>
+                    <div class="col-lg-4 me-auto"><p class="lead">
+                        We provide: Design solutions, Content & Research Solutions, Document Solutions, Software Solutions and Marketing Solutions. 
+                    </p><p class="lead">Our vision is to become a globally trusted brand in technology and solutions provision.
+                    </p>
+                    </div>
+                </div>
+                <!-- About Section Button-->
+                <div class="text-center mt-5">
+
+                    <a href="#contact" class="btn btn-outline-light btn-lg active" role="button" aria-pressed="true">
+                        <p class="h3 mb-0 mx-2">Let's talk</p></a>
+                        <p class="fresh-font font-weight-light mt-1 px-15">Your Trusted Solutions Partner</p>
+
+                    
+
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Us</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+
+                
+
+
+
+
+
+                <!---My new contact form validate-->
+
+
+                <!-- 
+                =======================================================================
+
+                    This is a working contact form. To receive email, 
+                    Replace YOUR_ACCESS_KEY_HERE with your actual Access Key.
+
+                    Create Access Key here 👉 https://web3forms.com/
+
+                    =======================================================================
+                -->
+
+                <div class="flex items-center">
+                    <div class="container mx-auto">
+                    <div class="max-w-xl mx-auto bg-white px-5 pb-1">
+                        <div class="text-center">
+                            <p class="text-gray-400 dark:text-gray-400">
+                                Fill up the form below to send us a message.
+                            </p>
+                        </div>
+                        <div class="m-7">
+                            <form action="https://api.web3forms.com/submit" method="POST" id="form" class="needs-validation" novalidate>
+                                <input type="hidden" name="access_key" value="9276cf02-28ed-442d-b427-e243dcc5c3c4" />
+                                <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+                                <input type="checkbox" name="botcheck" id="" style="display: none;" />
+            
+
+                            <div class="flex mb-6 space-x-4">
+                                <div class="w-full md:w-1/2">
+                                    <label for="fname" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">First Name</label>
+                                    <input type="text" name="name" id="first_name" placeholder="John" required
+                                        class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+                                    <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                                        Please provide your first name.
+                                    </div>
+                                </div>
+                                <div class="w-full md:w-1/2">
+                                    <label for="lname" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Last Name</label>
+                                    <input type="text" name="last_name" id="lname" placeholder="Doe" required
+                                        class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+                                    <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                                        Please provide your last name.
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            
+                            <div class="flex mb-6 space-x-4">
+                                <div class="w-full md:w-1/2">
+                                    <label for="email" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Email Address</label>
+                                    <input type="email" name="email" id="email" placeholder="you@company.com" required
+                                        class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+                                    <div class="empty-feedback text-red-400 text-sm mt-1">
+                                        Please provide your email address.
+                                    </div>
+                                    <div class="invalid-feedback text-red-400 text-sm mt-1">
+                                        Please provide a valid email address.
+                                    </div>
+                                </div>
+                            
+                                <div class="w-full md:w-1/2">
+                                    <label for="phone" class="block text-sm mb-2 text-gray-600 dark:text-gray-400">Phone Number</label>
+                                    <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" required
+                                        class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+                            
+                                    <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                                        Please provide your phone number.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-6">
+                                <label for="message" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Your Message</label>
+                            
+                                <textarea rows="5" name="message" id="message" placeholder="Your Message"
+                                    class="w-full px-3 py-2 placeholder-gray-300 border-2 border-gray-200 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
+                                    required></textarea>
+                                <div class="empty-feedback invalid-feedback text-red-400 text-sm mt-1">
+                                    Please enter your message.
+                                </div>
+                            </div>
+
+                           <!-- Step 1: Add this line -->
+                            <div class="h-captcha" data-captcha="true"></div>
+                        
+                            <!-- Custom Confirmation / Success Page -->
+                            <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+                            <div class="mb-6 mt-3">
+                                <button type="submit"
+                                    class="w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none">
+                                    Send Message
+                                </button>
+                            </div>
+                            <p class="text-base text-center text-gray-400" id="result"></p>
+                            </form>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">EtechMax</h4>
+                        <p class="lead mb-0 left">
+                            We're about results! Solutions providers - bringing the best of people & the best of technology together to deliver impactful results.
+                        </p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                     <div class="col-lg-3 mb-5 mb-lg-0">
+                    <!--    <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-x-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                     --></div>
+                   
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4 text-uppercase">
+                        <div>
+                            <div class="link-item"><a class="nav-link text-uppercase" href="about.html">About</a></div>
+                            <div class="link-item"><a class="nav-link text-uppercase" href="edwin-portfolio-articles.html">Portfolio</a></div>
+                            <div class="link-item"><a class="nav-link text-uppercase" href="contact.html">Contact</a></div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; EtechMax 2025</small></div>
+        </div>
+      
+
+    
+
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- Step 2: Add the Web3Forms script -->
+        <script src="https://web3forms.com/client/script.js" async defer></script>
+        <script>
+            (function () {
+                "use strict";
+                /*
+                 * Form Validation
+                 */
+
+                // Fetch all the forms we want to apply custom validation styles to
+                const forms = document.querySelectorAll(".needs-validation");
+                const result = document.getElementById("result");
+                // Loop over them and prevent submission
+                Array.prototype.slice.call(forms).forEach(function (form) {
+                    form.addEventListener(
+                        "submit",
+                        function (event) {
+                            if (!form.checkValidity()) {
+                                event.preventDefault();
+                                event.stopPropagation();
+
+                                form.querySelectorAll(":invalid")[0].focus();
+                            } else {
+                                /*
+                                 * Form Submission using fetch()
+                                 */
+
+                                const formData = new FormData(form);
+                                event.preventDefault();
+                                event.stopPropagation();
+                                const object = {};
+                                formData.forEach((value, key) => {
+                                    object[key] = value;
+                                });
+                                const json = JSON.stringify(object);
+                                result.innerHTML = "Please wait...";
+
+                                fetch("https://api.web3forms.com/submit", {
+                                    method: "POST",
+                                    headers: {
+                                        "Content-Type": "application/json",
+                                        Accept: "application/json"
+                                    },
+                                    body: json
+                                })
+                                    .then(async (response) => {
+                                        let json = await response.json();
+                                        if (response.status == 200) {
+                                            result.innerHTML = json.message;
+                                            result.classList.remove("text-gray-500");
+                                            result.classList.add("text-green-500");
+                                        } else {
+                                            console.log(response);
+                                            result.innerHTML = json.message;
+                                            result.classList.remove("text-gray-500");
+                                            result.classList.add("text-red-500");
+                                        }
+                                    })
+                                    .catch((error) => {
+                                        console.log(error);
+                                        result.innerHTML = "Something went wrong!";
+                                    })
+                                    .then(function () {
+                                        form.reset();
+                                        form.classList.remove("was-validated");
+                                        setTimeout(() => {
+                                            result.style.display = "none";
+                                        }, 5000);
+                                    });
+                            }
+                            form.classList.add("was-validated");
+                        },
+                        false
+                    );
+                });
+            })();
+
+        </script>
+
+        <script>
+            const form = document.getElementById('contactForm1');
+            
+            form.addEventListener('submit', function(e) {
+            
+                const hCaptcha = form.querySelector('textarea[name=h-captcha-response]').value;
+            
+                if (!hCaptcha) {
+                    e.preventDefault();
+                    alert("Please fill out captcha field")
+                    return
+                }
+            });
+        </script>
+
+        
+
+        
+        
+    </body>
+</html>
